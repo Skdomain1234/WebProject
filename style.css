@@ -1,6 +1,8 @@
 .home{ 
     background-color: white;
 
+    
+
 
 nav{
     background-color: black;
@@ -91,7 +93,10 @@ button {
         display: inline;
     }
     ul{
-        margin: 85%;
+        margin: 75%;
+    }
+    .pro{
+        margin-top: 100px;
     }
  
     .backC{
@@ -146,6 +151,7 @@ button {
         color: #333;
         font-family: Arial, sans-serif;
         
+        
 
     }
     
@@ -156,23 +162,24 @@ button {
     }
     
     .about-box p {
-        line-height: 1.6;
         
+        line-height: 1.6;
     }
 
 
     .about-image img {
         position: static;
-        margin: 100px;
-        margin-top: -270px;
-        margin-left: 900px;
+        margin: 10px;
+        margin-top: 10px;
+        margin-left: 50px;
         width: 210px;
         height: 210px;
-        border-radius: 50%;
-        object-fit: cover;
+        border: 50%;
+        object-fit: contain;
         
         
     }
+
     .backA{
         background-color: #4CAF50; /* Green */
         color: white;
